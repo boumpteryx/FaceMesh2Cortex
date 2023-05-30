@@ -1,8 +1,8 @@
-# FaceMesh
+# FaceMesh2Cortex
  
 This repository enables to use the FaceMesh model to extract face landmarks around the mouth. It can also be sued to compare those extracted landmarks to those extracted by the cortex system.
 
-![](Antoine_facemesh.png)
+![](Antoine_facemesh.PNG)
 
 ## Extract landmarks from a video
 run `video_processing.py`
