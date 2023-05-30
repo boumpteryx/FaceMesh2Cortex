@@ -39,7 +39,7 @@ vertical resizing is done by simply fitting the mean and the standard deviation 
 ## Step 2: Clone the FaceMesh GitHub Repository
 1. Open PyCharm Community Edition.
 2. On the welcome screen, select "Check out from Version Control" and choose "Git".
-3. In the "Git Repository URL" field, enter the URL of the FaceMesh GitHub repository.
+3. In the "Git Repository URL" field, enter the URL of the FaceMesh2Cortex GitHub repository.
 4. Choose a directory where you want to store the project on your local machine.
 5. Click "Clone" to clone the repository.
 
