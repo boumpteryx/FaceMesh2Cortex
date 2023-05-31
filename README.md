@@ -25,34 +25,44 @@ vertical resizing is done by simply fitting the mean and the standard deviation 
 
 # Getting Started
 
-## Step 1: Download and Install Anaconda
-1. Go to the Anaconda website: [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual).
-2. Scroll down to the "Anaconda Individual Edition" section.
+## Step 1: Download and Install PyCharm Community Edition
+1. Go to the PyCharm website: [https://www.jetbrains.com/pycharm/download](https://www.jetbrains.com/pycharm/download).
+2. Scroll down to the "Community" section.
 3. Select the appropriate installer for your operating system (Windows/macOS/Linux) and download it.
 4. Once the download is complete, run the installer.
 5. Follow the installation wizard's instructions:
    - Choose a destination folder (the default location is recommended).
-   - Optionally, select "Add Anaconda to my PATH environment variable" for easier command-line access.
+   - Select any additional components you want to install (optional).
+   - Click "Next" to proceed.
+   - Accept the license agreement and click "Next".
+   - Choose the installation options (default options are recommended).
    - Click "Install" to begin the installation.
 6. After the installation completes, close the installer.
 
-## Step 2: Clone the FaceMesh2Cortex GitHub Repository
+## Step 2: Open an Existing Project from GitHub
 1. Open PyCharm Community Edition.
-2. On the welcome screen, select "Check out from Version Control" and choose "Git".
-3. In the "Git Repository URL" field, enter the URL of the FaceMesh2Cortex GitHub repository.
-4. Choose a directory where you want to store the project on your local machine.
-5. Click "Clone" to clone the repository.
+2. On the welcome screen, click on "Get from Version Control" or select "File" -> "New" -> "Project from Version Control".
+3. In the "Version control" dropdown, select "Git".
+4. Copy the URL of the GitHub project you want to open.
+5. In the "URL" field, paste the copied URL.
+6. Choose a directory where you want to store the project on your local machine.
+7. Click "Clone" to clone the repository and open the project.
 
-## Step 3: Create a Virtual Environment with Python 3.7.0 Interpreter
-1. After cloning the repository, PyCharm will prompt you to open the project. Click "Yes" to open it.
-2. Once the project is open, go to the top menu and select "File" -> "Settings".
-3. In the Settings window, navigate to "Project: FaceMesh" -> "Python Interpreter" (or similar).
-4. Click on the gear icon on the right and select "Add".
-5. In the "Add Python Interpreter" window, choose "Virtual Environment" -> "New Environment".
-6. Select the base interpreter as Python 3.7.0 from the drop-down list.
-   - If Python 3.7.0 is not listed, you may need to add it as a new interpreter in Anaconda before proceeding.
-7. Choose a location for the virtual environment directory or use the default location.
-8. Click "OK" to create the virtual environment.
+## Step 3: Create a Python Interpreter for Python 3.7.0 and Set Up a Virtual Environment
+1. Once the project is open in PyCharm, go to the top menu and select "File" -> "Settings".
+2. In the Settings window, navigate to "Project: Your_Project_Name" -> "Python Interpreter" (or similar).
+3. Click on the gear icon on the right and select "Add".
+4. In the "Add Python Interpreter" window, select "System Interpreter" and click on the drop-down list.
+5. If Python 3.7.0 is listed, select it as the interpreter.
+   - If Python 3.7.0 is not listed, click on "Show All..." and select the path to your Python 3.7.0 interpreter.
+   - If you don't have Python 3.7.0 installed, refer to the official Python documentation to install it.
+6. Click "OK" to create the Python interpreter.
+
+7. To set up a virtual environment (venv), go back to the "Add Python Interpreter" window.
+8. This time, select "Virtualenv Environment" and click "OK".
+9. Choose a location for the virtual environment directory or use the default location.
+10. Ensure that the newly created virtual environment is selected as the interpreter.
+11. Click "OK" to apply the changes.
 
 ## Step 4: Install Project Requirements from `requirements.txt`
 1. In PyCharm, ensure that the FaceMesh project is open.
