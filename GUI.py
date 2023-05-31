@@ -150,7 +150,7 @@ else:
 for landmark in dict_match.keys():
     # trim
     save_facemesh[landmark] = save_facemesh[landmark][start_index:end_index]
-    save_cortex[landmark] = save_cortex[dict_match[landmark]][start_index:end_index]
+    save_cortex[dict_match[landmark]] = save_cortex[dict_match[landmark]][start_index:end_index]
 
 def save_explorer():
     root = tk.Tk() # Create the root window
