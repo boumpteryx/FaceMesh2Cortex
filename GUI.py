@@ -138,8 +138,8 @@ if len(markers) >= 2:
     trimmed_y = y_facemesh[start_index:end_index]
     trimmed_cortex = y_cortex[start_index:end_index]
     # Plot the trimmed sample in a new window
-    plt.plot(trimmed_x, trimmed_y)
-    plt.plot(trimmed_x, trimmed_cortex)
+    plt.plot(trimmed_x, trimmed_y, label="FaceMesh")
+    plt.plot(trimmed_x, trimmed_cortex, label="Cortex")
     plt.title('Trimmed Signal')
     plt.xlabel('x')
     plt.ylabel('y')
